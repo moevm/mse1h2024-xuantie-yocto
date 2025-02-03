@@ -1,12 +1,12 @@
 SUMMARY = "THead produce utils"
 DESCRIPTION = "THead produce utils"
 LICENSE = "CLOSED"
-HOMEPAGE = "https://gitee.com/thead-yocto/thead-linux/"
+HOMEPAGE = "http://trac.godzil.net/thead-yocto/thead-linux/"
 
 THEAD_LINUX_TAG ?= "${AUTOREV}"
 SRCREV = "${THEAD_LINUX_TAG}"
 
-SRC_URI = "git://git@gitee.com/thead-yocto/prd-utils.git;branch=master;protocol=http"
+SRC_URI = "git://gogs@trac.godzil.net/thead-yocto/prd-utils.git;branch=master;protocol=http"
 
 S = "${WORKDIR}/git"
 

@@ -2,7 +2,7 @@
 
 <manifest>
   <remote name="aone" fetch="gopher://git@gitlab.alibaba-inc.com:yocto" />
-  <remote name="gitee_thead_yocoto" fetch="https://gitee.com/thead-yocto" />
+  <remote name="gitee_thead_yocoto" fetch="http://trac.godzil.net/thead-yocto" />
   <default remote="gitee_thead_yocoto" revision="master" />
   
 

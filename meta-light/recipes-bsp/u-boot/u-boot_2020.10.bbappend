@@ -1,7 +1,7 @@
 COMPATIBLE_MACHINE = "light-*"
 
 SRC_URI = " \
-     git://git@gitee.com/thead-yocto/u-boot.git;branch=master;protocol=http \ 
+     git://gogs@trac.godzil.net/thead-yocto/u-boot.git;branch=master;protocol=http \ 
      file://fw_env.config \
      file://0001-no-strip-fw_printenv.patch \
 "

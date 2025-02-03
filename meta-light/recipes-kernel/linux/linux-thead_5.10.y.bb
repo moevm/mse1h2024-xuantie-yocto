@@ -3,12 +3,12 @@ require recipes-kernel/linux/linux-yocto.inc
 DEPENDS = "e2fsprogs-native opensbi"
 
 SRC_URI = " \
-            git://git@gitee.com/thead-yocto/kernel.git;branch=master;protocol=http \
+            git://gogs@trac.godzil.net/thead-yocto/kernel.git;branch=master;protocol=http \
 "
 # crop the kernel based on the defconfig
 FILESEXTRAPATHS:prepend := "${THISDIR}/${PN}:"
 SRC_URI:light-b-product-release = " \
-            git://git@gitee.com/thead-yocto/kernel.git;branch=master;protocol=http \
+            git://gogs@trac.godzil.net/thead-yocto/kernel.git;branch=master;protocol=http \
 "
 SRC_URI:light-b-product-release += "file://cvl1.cfg"
 SRC_URI:light-b-product-release += "file://cvl2.cfg"
