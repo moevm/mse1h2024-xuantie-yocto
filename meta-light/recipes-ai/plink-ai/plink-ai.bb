@@ -9,7 +9,7 @@ DEPENDS = " process-linker video-memory pnna "
 RDEPENDS:${PN} += " process-linker video-memory pnna "
 
 SRC_URI = " \
-            git://git@gitee.com/thead-yocto/plink_AI.git;branch=master;protocol=http \
+            git://gogs@trac.godzil.net/thead-yocto/plink_AI.git;branch=master;protocol=http \
           "
 
 THEAD_BSP_TAG ?= "${AUTOREV}"

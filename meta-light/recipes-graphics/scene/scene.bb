@@ -1,11 +1,11 @@
-HOMEPAGE = "https://gitee.com/thead-yocto/light_sdk/"
+HOMEPAGE = "http://trac.godzil.net/thead-yocto/light_sdk/"
 LICENSE = "CLOSED"
 COMPATIBLE_MACHINE = "light-*"
 PROVIDES = "scene"
 S = "${WORKDIR}/git"
 THEAD_BSP_TAG ?= "${AUTOREV}"
 SRCREV = "${THEAD_BSP_TAG}"
-SRC_URI = "git://git@gitee.com/thead-yocto/scene.git;branch=master;protocol=http \
+SRC_URI = "git://gogs@trac.godzil.net/thead-yocto/scene.git;branch=master;protocol=http \
           "
 RDEPENDS:${PN} += " gc620-test plink-ai plink-dpu-client"
 

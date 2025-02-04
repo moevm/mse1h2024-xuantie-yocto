@@ -5,7 +5,7 @@ DEPENDS = "libbsd libpcre zlib libcap"
 DEPENDS:append:class-target = " openssl"
 
 SRC_URI = " \
-    git://git@gitee.com/thead-yocto/d1_adbd.git;branch=master;protocol=http \
+    git://gogs@trac.godzil.net/thead-yocto/d1_adbd.git;branch=master;protocol=http \
     file://adbd-new.mk;subdir=${BPN} \
     file://android-tools-adbd.service"
 

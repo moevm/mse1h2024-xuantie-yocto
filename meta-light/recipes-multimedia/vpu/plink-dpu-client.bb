@@ -4,7 +4,7 @@ LICENSE = "CLOSED"
 COMPATIBLE_MACHINE = "light-*"
 
 SRC_URI = " \
-            git://git@gitee.com/thead-yocto/plink_dpu_client.git;branch=master;protocol=http \
+            git://gogs@trac.godzil.net/thead-yocto/plink_dpu_client.git;branch=master;protocol=http \
           "
 
 THEAD_BSP_TAG ?= "${AUTOREV}"

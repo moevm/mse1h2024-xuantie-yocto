@@ -5,7 +5,7 @@ LIC_FILES_CHKSUM = "file://COPYING;md5=d32239bcb673463ab874e80d47fae504"
 COMPATIBLE_MACHINE = "light-*"
 
 SRC_URI = " \
-            git://git@gitee.com/thead-yocto/vpu-vc8000d-kernel.git;branch=master;protocol=http \
+            git://gogs@trac.godzil.net/thead-yocto/vpu-vc8000d-kernel.git;branch=master;protocol=http \
             file://vc8000d.service \
             file://98-vc8000d.preset \
           "

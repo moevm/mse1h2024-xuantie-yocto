@@ -9,7 +9,7 @@ COMPATIBLE_MACHINE = "(light-*|fire-*)"
 inherit pkgconfig
 DEPENDS = " "
 
-SRC_URI = "git://git@gitee.com/thead-yocto/gst1-plugins-thead-proprietary.git;branch=master;protocol=http"
+SRC_URI = "git://gogs@trac.godzil.net/thead-yocto/gst1-plugins-thead-proprietary.git;branch=master;protocol=http"
 THEAD_LINUX_TAG ?= "${AUTOREV}"
 SRCREV = "${THEAD_LINUX_TAG}"
 

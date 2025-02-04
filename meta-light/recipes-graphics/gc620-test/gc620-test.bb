@@ -1,6 +1,6 @@
 SUMMARY = "CSI G2D HAL interfaces for using Vivante G2D module"
 DESCRIPTION = "The runtime library for using services provide by Vivante G2D module."
-HOMEPAGE = "https://gitee.com/thead-yocto/light_sdk/"
+HOMEPAGE = "http://trac.godzil.net/thead-yocto/light_sdk/"
 LICENSE = "CLOSED"
 COMPATIBLE_MACHINE = "light-*"
 #DEPENDS = " openssl cmake-native python3 zlib boost linux-thead process-linker xtensa-dsp vi-kernel"
@@ -16,7 +16,7 @@ export CROSS_COMPILE?="${TOOLCHAIN_DIR}/${TOOLCHAIN_PREFIX}"
 export PATH="${PKG_CONFIG_SYSROOT_DIR}/${includedir}:${PKG_CONFIG_SYSROOT_DIR}/${libdir}:${SYSROOT_DIR}:${SYSROOT_DIR}/usr/include:${SYSROOT_DIR}/usr/lib:${SYSROOT_DIR}/lib:${SYSROOT_DIR}/include:${RECIPE_SYSROOT_NATIVE}/usr/bin/riscv64-oe-linux:${COREBASE}/scripts:${COREBASE}/bitbake/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"
 THEAD_BSP_TAG ?= "${AUTOREV}"
 SRCREV = "${THEAD_BSP_TAG}"
-SRC_URI = "git://git@gitee.com/thead-yocto/gc620-test.git;branch=master;protocol=http \
+SRC_URI = "git://gogs@trac.godzil.net/thead-yocto/gc620-test.git;branch=master;protocol=http \
           "
 
 EXCLUDE_FROM_SHLIBS = "1"
