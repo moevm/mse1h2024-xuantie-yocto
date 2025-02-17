@@ -1,5 +1,5 @@
 DESCRIPTION = "thead VI customized sensor drivers"
-HOMEPAGE = "http://trac.godzil.net/thead-yocto/vi-sensor/"
+HOMEPAGE = "https://github.com/thead-yocto-mirror/vi-sensor/"
 LICENSE = "CLOSED"
 
 COMPATIBLE_MACHINE = "light-*"
@@ -7,7 +7,7 @@ COMPATIBLE_MACHINE = "light-*"
 DEPENDS += "image-proprietary vi-kernel"
 
 SRC_URI = " \
-            git://gogs@trac.godzil.net/thead-yocto/vi-sensor.git;branch=master;protocol=http \
+            https://github.com/thead-yocto-mirror/vi-sensor.git;branch=master;protocol=http \
           "
 
 THEAD_BSP_TAG ?= "${AUTOREV}"

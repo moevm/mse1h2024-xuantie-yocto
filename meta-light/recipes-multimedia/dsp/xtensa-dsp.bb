@@ -7,24 +7,24 @@ DEPENDS = " openssl cmake-native python3 zlib boost linux-thead vi-bt video-memo
 RDEPENDS:${PN} = "video-memory"
 
 SRC_URI = " \
-            git://gogs@trac.godzil.net/thead-yocto/xtensa_dsp.git;branch=master;protocol=http \
+            https://github.com/thead-yocto-mirror/xtensa_dsp.git;branch=master;protocol=http \
             file://xtensa-dsp.service \
             file://98-xtensa-dsp.preset\
           "
 SRC_URI:light-fm-bsp-v1.0.6 = " \
-            git://gogs@trac.godzil.net/thead-yocto/xtensa_dsp.git;branch=master;protocol=http \
+            https://github.com/thead-yocto-mirror/xtensa_dsp.git;branch=master;protocol=http \
             "
 SRC_URI:light-fm-b-bsp-v1.0.6 = " \
-            git://gogs@trac.godzil.net/thead-yocto/xtensa_dsp.git;branch=master;protocol=http \
+            https://github.com/thead-yocto-mirror/xtensa_dsp.git;branch=master;protocol=http \
        "
 SRC_URI:light-fm-a-linux = " \
-            git://gogs@trac.godzil.net/thead-yocto/xtensa_dsp.git;branch=master;protocol=http \
+            https://github.com/thead-yocto-mirror/xtensa_dsp.git;branch=master;protocol=http \
             file://xtensa-dsp.service \
             file://98-xtensa-dsp.preset\
        "
 
 SRC_URI:light-fm-b-linux = " \
-            git://gogs@trac.godzil.net/thead-yocto/xtensa_dsp.git;branch=master;protocol=http \
+            https://github.com/thead-yocto-mirror/xtensa_dsp.git;branch=master;protocol=http \
             file://xtensa-dsp.service \
             file://98-xtensa-dsp.preset\
        "

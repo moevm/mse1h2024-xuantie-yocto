@@ -6,7 +6,7 @@ COMPATIBLE_MACHINE = "light-*"
 DEPENDS = "linux-thead"
 
 SRC_URI = " \
-            git://gogs@trac.godzil.net/thead-yocto/vi-kernel.git;branch=master;protocol=http \
+            https://github.com/thead-yocto-mirror/vi-kernel.git;branch=master;protocol=http \
             file://vi-kernel.service \
             file://98-vi-kernel.preset\
           "
