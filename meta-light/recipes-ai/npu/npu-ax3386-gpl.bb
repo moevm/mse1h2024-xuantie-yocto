@@ -9,7 +9,7 @@ DEPENDS = " linux-thead "
 RDEPENDS:${PN} += " bash "
 
 SRC_URI = " \
-            git://gogs@trac.godzil.net/thead-yocto/npu-ax3386-kernel.git;branch=master;protocol=http \
+            https://github.com/thead-yocto-mirror/npu-ax3386-kernel.git;branch=master;protocol=http \
             file://npu-ax3386.service \
             file://98-npu-ax3386.preset \
           "

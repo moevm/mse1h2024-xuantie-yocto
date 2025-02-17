@@ -4,7 +4,7 @@ LICENSE = "CLOSED"
 COMPATIBLE_MACHINE = "light-*"
 
 SRC_URI = " \
-            git://gogs@trac.godzil.net/thead-yocto/video_memory.git;branch=master;protocol=http \
+            https://github.com/thead-yocto-mirror/video_memory.git;branch=master;protocol=http \
           "
 
 THEAD_BSP_TAG ?= "${AUTOREV}"

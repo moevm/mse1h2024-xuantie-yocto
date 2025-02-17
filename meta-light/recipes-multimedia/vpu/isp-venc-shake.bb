@@ -4,7 +4,7 @@ LICENSE = "CLOSED"
 COMPATIBLE_MACHINE = "light-*"
 
 SRC_URI = " \
-            git://gogs@trac.godzil.net/thead-yocto/isp_venc_shake.git;branch=master;protocol=http \
+            https://github.com/thead-yocto-mirror/isp_venc_shake.git;branch=master;protocol=http \
           "
 
 THEAD_BSP_TAG ?= "${AUTOREV}"

@@ -9,7 +9,7 @@ COMPATIBLE_MACHINE = "light-*"
 DEPENDS = " openssl cmake-native python3 zlib boost linux-thead"
 
 SRC_URI = " \
-            git://gogs@trac.godzil.net/thead-yocto/baremetal-drivers.git;branch=master;protocol=http \
+            https://github.com/thead-yocto-mirror/baremetal-drivers.git;branch=master;protocol=http \
           "
 
 THEAD_BSP_TAG ?= "${AUTOREV}"
